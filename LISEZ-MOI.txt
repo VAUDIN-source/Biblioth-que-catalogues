@@ -1,0 +1,9 @@
+BIBLIOTHÈQUE CATALOGUES – CHEMINÉES VAUDIN
+
+Contenu :
+- index.html : page d'accueil
+- style.css : présentation
+- dossier catalogues : fichiers PDF
+
+Le dossier est prêt à être déposé dans le dépôt GitHub « Biblioth-que-catalogues ».
+Ne renommez pas les fichiers sans modifier aussi les liens dans index.html.
