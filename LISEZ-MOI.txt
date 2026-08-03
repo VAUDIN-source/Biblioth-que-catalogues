@@ -1,0 +1,24 @@
+BIBLIOTHÈQUE CHEMINÉES VAUDIN — VERSION 3
+
+Ce dossier est un dépôt propre et complet.
+
+Pour repartir proprement :
+1. Dans GitHub Desktop, retirez l’ancienne copie locale si nécessaire.
+2. Clonez à nouveau le dépôt GitHub.
+3. Ouvrez le dossier cloné avec « Show in Explorer ».
+4. Copiez TOUT le contenu de ce dossier Version 3 dans le dossier cloné.
+5. Acceptez le remplacement des fichiers.
+6. Dans GitHub Desktop :
+   Summary : Version 3 complète
+   Commit to main
+   Push origin
+
+La Version 3 contient :
+- les catalogues poêles à bois ;
+- les catalogues MCZ et JM ;
+- les tarifs publics MCZ 2026-2027 et JM 2026 ;
+- les catalogues foyers M-Design et Lorflam ;
+- une page responsive avec les 4 catégories.
+
+Adresse publique :
+https://vaudin-source.github.io/Biblioth-que-catalogues/
