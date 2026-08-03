@@ -8,92 +8,62 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
-  <div class="wrap hero-grid">
-    <img src="logo-vaudin.jpg" alt="Cheminées Vaudin" class="logo">
-    <div>
-      <p class="eyebrow">Cheminées Vaudin</p>
-      <h1>Nos catalogues produits</h1>
-      <p class="lead">Retrouvez nos catalogues de poêles, foyers et inserts. Les tarifs publics sont disponibles pour MCZ et JM.</p>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <img src="logo-vaudin.jpg" alt="Cheminées Vaudin" class="logo">
+      <div>
+        <p class="eyebrow">Cheminées Vaudin</p>
+        <h1>Nos catalogues produits</h1>
+        <p class="lead">Consultez les catalogues de nos fabricants partenaires. Les tarifs publics sont disponibles pour MCZ et JM.</p>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<nav class="nav">
-  <div class="wrap nav-links">
-    <a href="#bois">Poêles à bois</a>
-    <a href="#pellets">Poêles à pellets</a>
-    <a href="#foyers">Foyers de cheminée</a>
-    <a href="#inserts">Inserts</a>
-  </div>
-</nav>
-
-<main class="wrap">
-  <section id="bois" class="section">
-    <div class="section-head"><span>01</span><div><p>Chauffage au bois</p><h2>Poêles à bois</h2></div></div>
-    <div class="grid">
-      <a class="card" href="catalogues/spartherm.pdf" target="_blank"><strong>SPARTHERM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/romotop.pdf" target="_blank"><strong>ROMOTOP</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/lorflam-xbox.pdf" target="_blank"><strong>LORFLAM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/seguin.pdf" target="_blank"><strong>SEGUIN</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/hergom.pdf" target="_blank"><strong>HERGOM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/fonte-flamme.pdf" target="_blank"><strong>FONTE FLAMME</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/olsberg.pdf" target="_blank"><strong>OLSBERG</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/wiking.pdf" target="_blank"><strong>WIKING</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/storch.pdf" target="_blank"><strong>STORCH</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/la-nordica.pdf" target="_blank"><strong>LA NORDICA</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/lorium.pdf" target="_blank"><strong>LORIUM</strong><em>Ouvrir le catalogue</em></a>
+  <nav class="top-nav" aria-label="Navigation des catalogues">
+    <div class="wrap nav-inner">
+      <button class="nav-button active" data-filter="all">Tous</button>
+      <button class="nav-button" data-filter="bois">Poêles à bois</button>
+      <button class="nav-button" data-filter="pellets">Poêles à pellets</button>
+      <button class="nav-button" data-filter="foyers">Foyers</button>
+      <button class="nav-button" data-filter="inserts">Inserts</button>
     </div>
-  </section>
+  </nav>
 
-  <section id="pellets" class="section">
-    <div class="section-head"><span>02</span><div><p>Chauffage aux granulés</p><h2>Poêles à pellets</h2></div></div>
-    <div class="grid grid-two">
-      <article class="card product-card">
-        <strong>MCZ</strong>
-        <div class="buttons">
-          <a href="catalogues/mcz.pdf" target="_blank">Catalogue produits</a>
-          <a class="secondary" href="catalogues/mcz-tarifs-2026-2027.pdf" target="_blank">Tarifs publics</a>
-        </div>
-      </article>
-      <article class="card product-card">
-        <strong class="jm">JM</strong><small>Jolly Mec</small>
-        <div class="buttons">
-          <a href="catalogues/jm.pdf" target="_blank">Catalogue produits</a>
-          <a class="secondary" href="catalogues/jm-tarifs-2026.pdf" target="_blank">Tarifs publics</a>
-        </div>
-      </article>
+  <main class="wrap">
+    <section class="toolbar">
+      <div>
+        <p class="toolbar-kicker">Accès rapide</p>
+        <h2>Rechercher une marque</h2>
+      </div>
+      <label class="search-box">
+        <span class="sr-only">Rechercher une marque</span>
+        <input id="search" type="search" placeholder="Ex. MCZ, Romotop, Spartherm..." autocomplete="off">
+      </label>
+    </section>
+
+    <section id="catalogues" class="catalogue-grid" aria-live="polite"></section>
+    <p id="empty-state" class="empty-state" hidden>Aucun catalogue ne correspond à votre recherche.</p>
+
+    <section class="contact">
+      <div>
+        <h2>Vous ne trouvez pas l’appareil recherché ?</h2>
+        <p>Contactez-nous pour une étude personnalisée.</p>
+      </div>
+      <div class="contact-links">
+        <a href="tel:+33388502452">03 88 50 24 52</a>
+        <a href="mailto:info@cheminees-vaudin.fr">info@cheminees-vaudin.fr</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <strong>Cheminées Vaudin</strong>
+      <span>5 rue du Stade — 67870 Bischoffsheim</span>
+      <span>Dernière mise à jour : août 2026</span>
     </div>
-    <p class="notice">Les tarifs sont donnés à titre indicatif et peuvent évoluer.</p>
-  </section>
+  </footer>
 
-  <section id="foyers" class="section">
-    <div class="section-head"><span>03</span><div><p>Cheminées sur mesure</p><h2>Foyers de cheminée</h2></div></div>
-    <div class="grid">
-      <a class="card" href="catalogues/spartherm.pdf" target="_blank"><strong>SPARTHERM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/mdesign-argento.pdf" target="_blank"><strong>M-DESIGN</strong><small>Argento</small><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/mdesign-luna-diamond.pdf" target="_blank"><strong>M-DESIGN</strong><small>Luna Diamond</small><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/lorflam-foyers-inserts.pdf" target="_blank"><strong>LORFLAM</strong><small>Foyers & inserts</small><em>Ouvrir le catalogue</em></a>
-    </div>
-  </section>
-
-  <section id="inserts" class="section">
-    <div class="section-head"><span>04</span><div><p>Rénovation et création</p><h2>Inserts</h2></div></div>
-    <div class="grid">
-      <a class="card" href="catalogues/spartherm.pdf" target="_blank"><strong>SPARTHERM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/lorflam-foyers-inserts.pdf" target="_blank"><strong>LORFLAM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/seguin.pdf" target="_blank"><strong>SEGUIN</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/hergom.pdf" target="_blank"><strong>HERGOM</strong><em>Ouvrir le catalogue</em></a>
-      <a class="card" href="catalogues/fonte-flamme.pdf" target="_blank"><strong>FONTE FLAMME</strong><em>Ouvrir le catalogue</em></a>
-    </div>
-  </section>
-
-  <section class="contact">
-    <div><h3>Vous ne trouvez pas l’appareil recherché ?</h3><p>Contactez-nous pour une étude personnalisée.</p></div>
-    <div class="contact-links"><a href="tel:+33388502452">03 88 50 24 52</a><a href="mailto:info@cheminees-vaudin.fr">info@cheminees-vaudin.fr</a></div>
-  </section>
-</main>
-
-<footer><div class="wrap footer-grid"><strong>Cheminées Vaudin</strong><span>5 rue du Stade — 67870 Bischoffsheim</span><span>Dernière mise à jour : août 2026</span></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
