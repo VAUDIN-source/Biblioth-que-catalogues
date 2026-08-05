@@ -243,3 +243,15 @@ footer{color:#ccc;background:#111}
   .contact-links{width:100%;flex-direction:column}
   .contact-links a{text-align:center}
 }
+
+/* Version 5 */
+.card h3 {
+  text-transform: none;
+}
+.card-actions a {
+  border-radius: 3px;
+}
+.card-actions a.secondary::before {
+  content: "€ ";
+  font-weight: 900;
+}
