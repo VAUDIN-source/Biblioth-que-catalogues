@@ -1,7 +1,11 @@
 const catalogues = [
+  // POÊLES À BOIS
   {brand:"Spartherm", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
   {brand:"Romotop", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/romotop.pdf"]]},
-  {brand:"Lorflam", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/lorflam-xbox.pdf"]]},
+  {brand:"Lorflam", category:"bois", label:"Poêles à bois", docs:[
+    ["Catalogue 2026-2027","catalogues/lorflam-poeles-bois-2026-2027.pdf"],
+    ["Gamme XP Box","catalogues/lorflam-xbox.pdf","secondary"]
+  ]},
   {brand:"Seguin", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/seguin.pdf"]]},
   {brand:"Hergom", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/hergom.pdf"]]},
   {brand:"Fonte Flamme", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/fonte-flamme.pdf"]]},
@@ -10,26 +14,30 @@ const catalogues = [
   {brand:"Storch", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/storch.pdf"]]},
   {brand:"La Nordica", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/la-nordica.pdf"]]},
   {brand:"Lorium", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/lorium.pdf"]]},
+  {brand:"Rocal", category:"bois", label:"Poêles à bois", docs:[["Catalogue général","catalogues/rocal-2025.pdf"]]},
+  {brand:"CERA Design", category:"bois", label:"Poêles à bois", docs:[["Catalogue 2025","catalogues/cera-design-2025.pdf"]]},
 
+  // POÊLES À PELLETS
   {brand:"MCZ", category:"pellets", label:"Poêles à pellets", docs:[
     ["Catalogue produits","catalogues/mcz.pdf"],
     ["Tarifs publics","catalogues/mcz-tarifs-2026-2027.pdf","secondary"]
   ]},
-  {brand:"JM", subtitle:"Jolly Mec", category:"pellets", label:"Poêles à pellets", docs:[
+  {brand:"Jolly Mec", subtitle:"JM", category:"pellets", label:"Poêles à pellets", docs:[
     ["Catalogue produits","catalogues/jm.pdf"],
     ["Tarifs publics","catalogues/jm-tarifs-2026.pdf","secondary"]
   ]},
 
+  // FOYERS DE CHEMINÉE
   {brand:"Spartherm", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
   {brand:"M-Design", subtitle:"Argento", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/mdesign-argento.pdf"]]},
   {brand:"M-Design", subtitle:"Luna Diamond", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/mdesign-luna-diamond.pdf"]]},
   {brand:"Lorflam", subtitle:"Foyers & inserts", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/lorflam-foyers-inserts.pdf"]]},
 
+  // INSERTS - uniquement Spartherm, conformément à votre sélection
   {brand:"Spartherm", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
-  {brand:"Lorflam", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/lorflam-foyers-inserts.pdf"]]},
-  {brand:"Seguin", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/seguin.pdf"]]},
-  {brand:"Hergom", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/hergom.pdf"]]},
-  {brand:"Fonte Flamme", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/fonte-flamme.pdf"]]}
+
+  // CUISINIÈRES
+  {brand:"La Nordica", category:"cuisinieres", label:"Cuisinières", docs:[["Catalogue","catalogues/la-nordica.pdf"]]}
 ];
 
 const grid = document.getElementById("catalogues");
