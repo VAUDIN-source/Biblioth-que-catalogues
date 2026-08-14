@@ -91,22 +91,64 @@ function render(){
   const query = normalize(search.value.trim());
   const visible = catalogues.filter(item => {
     const matchesCategory = currentFilter === "all" || item.category === currentFilter;
-    const haystack = normalize(`${item.brand} ${item.subtitle || ""} ${item.label}`);
+ const haystack = normalize(`${item.brand} ${item.model || ""} ${item.subtitle || ""} ${item.label}`);
     return matchesCategory && (!query || haystack.includes(query));
   });
 
-  grid.innerHTML = visible.map(item => `
+grid.innerHTML = visible.map(item => {
+  if (item.category === "destockage") {
+    return `
+      <article class="card stock-card">
+        <div class="stock-badge">${item.discount}</div>
+
+        <a href="${item.image}" target="_blank" rel="noopener" class="stock-image-link">
+          <img src="${item.image}" alt="${item.brand} ${item.model}" class="stock-image">
+        </a>
+
+        <div class="stock-body">
+          <p class="card-category">${item.label} · Modèle d’exposition</p>
+          <h3>${item.brand}</h3>
+          <p class="stock-model">${item.model}</p>
+
+          <div class="stock-prices">
+            <div class="price-box">
+              <span class="price-label">TVA 5,5 %</span>
+              <span class="old-price">${item.original55}</span>
+              <strong>${item.promo55}</strong>
+            </div>
+
+            <div class="price-box">
+              <span class="price-label">TVA 20 %</span>
+              <span class="old-price">${item.original20}</span>
+              <strong>${item.promo20}</strong>
+            </div>
+          </div>
+
+          <a href="${item.image}" target="_blank" rel="noopener" class="stock-link">
+            Voir la fiche complète
+          </a>
+
+          <p class="stock-note">Dans la limite des stocks disponibles.</p>
+        </div>
+      </article>
+    `;
+  }
+
+  return `
     <article class="card">
       <p class="card-category">${item.label}</p>
       <h3>${item.brand}</h3>
       ${item.subtitle ? `<p class="card-subtitle">${item.subtitle}</p>` : ""}
       <div class="card-actions">
         ${item.docs.map(doc => `
-          <a href="${doc[1]}" target="_blank" rel="noopener" class="${doc[2] || ""}">${doc[0]}</a>
+          <a href="${doc[1]}" target="_blank" rel="noopener" class="${doc[2] || ""}">
+            ${doc[0]}
+          </a>
         `).join("")}
       </div>
     </article>
-  `).join("");
+  `;
+}).join(""); 
 
   emptyState.hidden = visible.length !== 0;
 }
