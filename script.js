@@ -80,7 +80,8 @@ const catalogues = [
 {marque:"La Nordica", catégorie:"cuisinières", étiquette:"Cuisinières", documents:[["Catalogue","catalogues/la-nordica.pdf"]]},
 
 // ACCESSOIRES DE CHEMINÉES
-{marque:"Dixneuf", catégorie:"accessoires", étiquette:"Accessoires de cheminées", documents:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]}
+  // ACCESSOIRES DE CHEMINÉES
+{brand:"Dixneuf", category:"accessoires", label:"Accessoires de cheminées", docs:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]}
 ];
 
 const grid = document.getElementById("catalogues");
