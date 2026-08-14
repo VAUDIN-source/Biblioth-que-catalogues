@@ -77,7 +77,8 @@ const catalogues = [
   {brand:"Spartherm", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
 
   // CUISINIÈRES
-{marque:"La Nordica", catégorie:"cuisinières", étiquette:"Cuisinières", documents:[["Catalogue","catalogues/la-nordica.pdf"]]},
+// CUISINIÈRES
+{brand:"La Nordica", category:"cuisinieres", label:"Cuisinières", docs:[["Catalogue","catalogues/la-nordica.pdf"]]},
 
   // ACCESSOIRES DE CHEMINÉES
 {brand:"Dixneuf", category:"accessoires", label:"Accessoires de cheminées", docs:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]}
