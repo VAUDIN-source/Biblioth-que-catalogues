@@ -90,7 +90,10 @@ function normalize(value){
 function render(){
   const query = normalize(search.value.trim());
   const visible = catalogues.filter(item => {
-    const matchesCategory = currentFilter === "all" || item.category === currentFilter;
+   const matchesCategory =
+  currentFilter === "all"
+    ? item.category !== "destockage"
+    : item.category === currentFilter;
  const haystack = normalize(`${item.brand} ${item.model || ""} ${item.subtitle || ""} ${item.label}`);
     return matchesCategory && (!query || haystack.includes(query));
   });
