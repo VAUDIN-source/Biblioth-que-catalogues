@@ -16,7 +16,7 @@ const catalogues = [
   {brand:"Lorium", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/lorium.pdf"]]},
   {brand:"Rocal", category:"bois", label:"Poêles à bois", docs:[["Catalogue général","catalogues/rocal-2025.pdf"]]},
   {brand:"CERA Design", category:"bois", label:"Poêles à bois", docs:[["Catalogue 2025","catalogues/cera-design-2025.pdf"]]},
-
+  {brand:"Dovre", category:"bois", label:"Poêles à bois", docs:[["Catalogue 2025-2026","catalogues/dovre-2025-2026-github.pdf"]]},
   // POÊLES À PELLETS
   {brand:"MCZ", category:"pellets", label:"Poêles à pellets", docs:[
     ["Catalogue produits","catalogues/mcz.pdf"],
