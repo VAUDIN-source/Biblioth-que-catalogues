@@ -1,4 +1,41 @@
 const catalogues = [
+  // DÉSTOCKAGE
+{
+  brand:"Piazzetta",
+  model:"E129 M",
+  category:"destockage",
+  label:"Déstockage",
+  discount:"-20 %",
+  image:"destockage/piazzetta-e129m.png",
+  original55:"4 579 €",
+  promo55:"3 663 € TTC",
+  original20:"5 208 €",
+  promo20:"4 166 € TTC"
+},
+{
+  brand:"Skanderborg",
+  model:"Tilda XL DA-TOP",
+  category:"destockage",
+  label:"Déstockage",
+  discount:"-30 %",
+  image:"destockage/skanderborg-tilda-xl.png",
+  original55:"5 513 €",
+  promo55:"3 859 € TTC",
+  original20:"6 271 €",
+  promo20:"4 390 € TTC"
+},
+{
+  brand:"Spartherm",
+  model:"Ambiante A7 Blanc",
+  category:"destockage",
+  label:"Déstockage",
+  discount:"-20 %",
+  image:"destockage/spartherm-ambiante-a7.png",
+  original55:"4 332 €",
+  promo55:"3 466 € TTC",
+  original20:"4 928 €",
+  promo20:"3 942 € TTC"
+},
   // POÊLES À BOIS
   {brand:"Spartherm", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
   {brand:"Romotop", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/romotop.pdf"]]},
