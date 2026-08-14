@@ -78,7 +78,7 @@ const catalogues = [
 
   // CUISINIÈRES
 // CUISINIÈRES
-{brand:"La Nordica", category:"cuisinieres", label:"Cuisinières", docs:[["Catalogue","catalogues/la-nordica.pdf"]]},,
+{brand:"La Nordica", category:"cuisinieres", label:"Cuisinières", docs:[["Catalogue","catalogues/la-nordica.pdf"]]},
 
   // ACCESSOIRES DE CHEMINÉES
 {brand:"Dixneuf", category:"accessoires", label:"Accessoires de cheminées", docs:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]}
