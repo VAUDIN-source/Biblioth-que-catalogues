@@ -13,16 +13,18 @@ const catalogues = [
   promo20:"4 166 € TTC"
 },
 {
+  {
   brand:"Skanderborg",
-  model:"Tilda XL DA-TOP",
+  model:"TIVA XL DA",
   category:"destockage",
   label:"Déstockage",
   discount:"-30 %",
-  image:"destockage/skanderborg-tilda-xl.png",
-  original55:"5 513 €",
-  promo55:"3 859 € TTC",
-  original20:"6 271 €",
-  promo20:"4 390 € TTC"
+  image:"destockage/skanderborg-tiva-xl.png",
+  original55:"5 516 €",
+  promo55:"3 861 € TTC",
+  original20:"6 274 €",
+  promo20:"4 392 € TTC"
+},
 },
 {
   brand:"Spartherm",
