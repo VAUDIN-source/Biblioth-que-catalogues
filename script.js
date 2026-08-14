@@ -68,7 +68,7 @@ const catalogues = [
   ]},
 
   // FOYERS DE CHEMINÉE
-  {brand:"Spartherm", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
+  {brand:"Spartherm", category:"foyers", label:"Foyers de cheminée", docs:[["catalogues/Foyers-Spartherm-GitHub.pdf"]]},
   {brand:"M-Design", subtitle:"Argento", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/mdesign-argento.pdf"]]},
   {brand:"M-Design", subtitle:"Luna Diamond", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/mdesign-luna-diamond.pdf"]]},
   {brand:"Lorflam", subtitle:"Foyers & inserts", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/lorflam-foyers-inserts.pdf"]]},
