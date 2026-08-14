@@ -255,3 +255,109 @@ footer{color:#ccc;background:#111}
   content: "€ ";
   font-weight: 900;
 }
+/* DÉSTOCKAGE */
+.destockage-nav{
+  color:var(--red);
+  font-weight:900;
+}
+
+.stock-card{
+  position:relative;
+  display:block;
+  padding:0;
+  overflow:hidden;
+  text-align:left;
+  border-top:4px solid var(--red);
+}
+
+.stock-badge{
+  position:absolute;
+  top:14px;
+  right:14px;
+  z-index:2;
+  padding:8px 12px;
+  color:#fff;
+  background:var(--red);
+  font-weight:900;
+  font-size:1rem;
+}
+
+.stock-image-link{
+  display:block;
+  height:330px;
+  overflow:hidden;
+  background:#eee;
+}
+
+.stock-image{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  object-position:top center;
+}
+
+.stock-body{
+  padding:22px;
+}
+
+.stock-model{
+  margin:3px 0 18px;
+  font-size:1.05rem;
+  font-weight:800;
+}
+
+.stock-prices{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+.price-box{
+  padding:12px;
+  text-align:center;
+  border:1px solid var(--line);
+  background:#fafafa;
+}
+
+.price-label{
+  display:block;
+  margin-bottom:3px;
+  color:var(--grey);
+  font-size:.72rem;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+.old-price{
+  display:block;
+  color:var(--grey);
+  font-size:.84rem;
+  text-decoration:line-through;
+}
+
+.price-box strong{
+  display:block;
+  margin-top:2px;
+  color:var(--red);
+  font-size:1.14rem;
+}
+
+.stock-link{
+  display:block;
+  margin-top:14px;
+  padding:11px 14px;
+  color:#fff;
+  background:var(--red);
+  text-align:center;
+  text-decoration:none;
+  font-weight:900;
+  border-radius:3px;
+}
+
+.stock-note{
+  margin:10px 0 0;
+  color:var(--grey);
+  font-size:.75rem;
+  text-align:center;
+}
