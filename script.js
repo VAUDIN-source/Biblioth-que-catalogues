@@ -19,7 +19,7 @@ const catalogues = [
   category:"destockage",
   label:"Déstockage",
   discount:"-30 %",
-  image:"destockage/skanderborg-tiva-xl.png",
+ image:"destockage/Skanderborg TIVA.png",
   original55:"5 516 €",
   promo55:"3 861 € TTC",
   original20:"6 274 €",
