@@ -11,9 +11,10 @@ const catalogues = [
   promo55:"3 663 € TTC",
   original20:"5 208 €",
   promo20:"4 166 € TTC"
-},
+
+  },
 {
-  {
+  brand:"Skanderborg",  
   brand:"Skanderborg",
   model:"TIVA XL DA",
   category:"destockage",
@@ -25,7 +26,7 @@ const catalogues = [
   original20:"6 274 €",
   promo20:"4 392 € TTC"
 },
-},
+  
 {
   brand:"Spartherm",
   model:"Ambiante A7 Blanc",
