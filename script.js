@@ -77,7 +77,10 @@ const catalogues = [
   {brand:"Spartherm", category:"inserts", label:"Inserts", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
 
   // CUISINIÈRES
-  {brand:"La Nordica", category:"cuisinieres", label:"Cuisinières", docs:[["Catalogue","catalogues/la-nordica.pdf"]]}
+{marque:"La Nordica", catégorie:"cuisinières", étiquette:"Cuisinières", documents:[["Catalogue","catalogues/la-nordica.pdf"]]},
+
+// ACCESSOIRES DE CHEMINÉES
+{marque:"Dixneuf", catégorie:"accessoires", étiquette:"Accessoires de cheminées", documents:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]}
 ];
 
 const grid = document.getElementById("catalogues");
