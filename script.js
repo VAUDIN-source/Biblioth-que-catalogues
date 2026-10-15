@@ -81,7 +81,16 @@ const catalogues = [
 {brand:"La Nordica", category:"cuisinieres", label:"Cuisinières", docs:[["Catalogue","catalogues/la-nordica.pdf"]]},
 
   // ACCESSOIRES DE CHEMINÉES
-{brand:"Dixneuf", category:"accessoires", label:"Accessoires de cheminées", docs:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]}
+{brand:"Dixneuf", category:"accessoires", label:"Accessoires de cheminées", docs:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]},
+
+
+// CHEMINÉES ÉLECTRIQUES
+
+{brand:"British Fires", category:"electriques", label:"Cheminées électriques", docs:[
+  ["Catalogue","catalogues/catalogue-british-fires.pdf"],
+  ["Tarifs 2026","catalogues/Tarif-BritishFires-07-2026.pdf","secondary"]
+]}
+
 ];
 
 const grid = document.getElementById("catalogues");
