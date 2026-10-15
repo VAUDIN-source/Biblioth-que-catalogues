@@ -39,6 +39,18 @@ const catalogues = [
   original20:"4 928 €",
   promo20:"3 942 € TTC"
 },
+  {
+  marque:"Spartherm",
+  modele:"Senso L Titan / Noir",
+  categorie:"déstockage",
+  etiquette:"Déstockage",
+  rabais:"-10 %",
+  image:"destockage/Spartherm senso l.png",
+  original55:"4 347 €",
+  promo55:"3 912,30 € TTC",
+  original20:"4 944 €",
+  promo20:"4 449,60 € TTC"
+},
   // POÊLES À BOIS
   {brand:"Spartherm", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
   {brand:"Romotop", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/romotop.pdf"]]},
