@@ -127,7 +127,7 @@ categorie:"destockage",
 {brand:"British Fires", category:"electriques", label:"Cheminées électriques", docs:[
   ["Catalogue","catalogues/catalogue-british-fires.pdf"],
   ["Tarifs 2026","catalogues/Tarif-BritishFires-07-2026.pdf","secondary"]
-]}
+]},
 
  
 
