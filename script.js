@@ -59,11 +59,13 @@ categorie:"destockage",
   {brand:"Romotop", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/romotop.pdf"]]},
  
 
+
 {brand:"Lorflam", category:"bois", label:"Poêles à bois", docs:[
   ["Catalogue 2026-2027","catalogues/lorflam-poeles-bois-2026-2027.pdf"],
   ["Gamme XP Box","catalogues/lorflam-xbox.pdf","secondary"],
   ["Poêles de masse SOLSTRÅL","catalogues/CAT-POELES-BOIS-SOLSTRAL-09-2026_comp.pdf"]
 ]},
+
 
 
  
