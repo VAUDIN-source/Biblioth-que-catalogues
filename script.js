@@ -84,7 +84,6 @@ categorie:"destockage",
 
 
 
-
 {
   brand:"TotalEnergies",
   category:"pellets",
@@ -94,6 +93,7 @@ categorie:"destockage",
     ["Offre de fidélité","catalogues/totalenergies-fidelite.pdf","secondary"]
   ]
 },
+
 
 
 
