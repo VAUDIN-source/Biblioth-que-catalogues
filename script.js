@@ -129,15 +129,17 @@ categorie:"destockage",
   ["Tarifs 2026","catalogues/Tarif-BritishFires-07-2026.pdf","secondary"]
 ]}
 
-  // CONSEILS & UTILISATION
+ 
+  // CONSEILS ET UTILISATION
   {
     brand: "Allumage inversé",
     category: "conseils",
-    label: "Conseils & utilisation",
+    label: "Conseils et utilisation",
     docs: [
       ["Voir le tutoriel", "catalogues/allumage-inverse.png"]
     ]
   },
+
 
 ];
 
