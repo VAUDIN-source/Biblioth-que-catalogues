@@ -57,10 +57,14 @@ categorie:"destockage",
   // POÊLES À BOIS
   {brand:"Spartherm", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/spartherm.pdf"]]},
   {brand:"Romotop", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/romotop.pdf"]]},
-  {brand:"Lorflam", category:"bois", label:"Poêles à bois", docs:[
-    ["Catalogue 2026-2027","catalogues/lorflam-poeles-bois-2026-2027.pdf"],
-    ["Gamme XP Box","catalogues/lorflam-xbox.pdf","secondary"]
-  ]},
+ 
+{marque:"Lorflam", catégorie:"bois", étiquette:"Poêles à bois", documents:[
+  ["Catalogue 2026-2027","catalogues/lorflam-poeles-bois-2026-2027.pdf"],
+  ["Boîte d'XP de jeu","catalogues/lorflam-xbox.pdf","secondaire"],
+  ["Poêles de masse SOLSTRÅL 2026-2027","catalogues/CAT-POELES-BOIS-SOLSTRAL-09-2026_comp.pdf"]
+]},
+
+ 
   {brand:"Seguin", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/seguin.pdf"]]},
   {brand:"Hergom", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/hergom.pdf"]]},
   {brand:"Fonte Flamme", category:"bois", label:"Poêles à bois", docs:[["Catalogue","catalogues/fonte-flamme.pdf"]]},
