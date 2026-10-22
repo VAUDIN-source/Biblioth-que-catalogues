@@ -130,6 +130,7 @@ categorie:"destockage",
 ]}
 
  
+
   // CONSEILS ET UTILISATION
   {
     brand: "Allumage inversé",
@@ -138,6 +139,8 @@ categorie:"destockage",
     docs: [
       ["Voir le tutoriel", "catalogues/allumage-inverse.png"]
     ]
+  },
+
   },
 
 
