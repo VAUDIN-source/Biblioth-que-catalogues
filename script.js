@@ -142,7 +142,7 @@ categorie:"destockage",
     docs: [
       ["Voir le tutoriel", "catalogues/allumage-inverse.png"]
     ]
-  }
+},
 ];
 
 
