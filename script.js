@@ -82,6 +82,18 @@ categorie:"destockage",
     ["Tarifs publics","catalogues/jm-tarifs-2026.pdf","secondary"]
   ]},
 
+
+{
+  brand:"TotalEnergies",
+  category:"pellets",
+  label:"Poêles à pellets",
+  docs:[
+    ["Offre de bienvenue","catalogues/Bulletin MAJ 2025 1012 Bienvenue Code Cheminées Vaudin.pdf"],
+    ["Offre de fidélité","catalogues/Bulletin MAJ 2025 Bienvenue Code Fidélité Cheminées Vaudin.pdf","secondary"]
+  ]
+},
+
+
   // FOYERS DE CHEMINÉE
 {brand:"Spartherm", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/Foyers-Spartherm-GitHub.pdf"]]},
   {brand:"M-Design", subtitle:"Argento", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/mdesign-argento.pdf"]]},
