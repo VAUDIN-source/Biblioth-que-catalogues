@@ -122,14 +122,17 @@ categorie:"destockage",
 {brand:"Dixneuf", category:"accessoires", label:"Accessoires de cheminées", docs:[["Catalogue","catalogues/dixneuf-accessoires-2026-2027-compresse.pdf"]]},
 
 
-// CHEMINÉES ÉLECTRIQUES
 
-{brand:"British Fires", category:"electriques", label:"Cheminées électriques", docs:[
-  ["Catalogue","catalogues/catalogue-british-fires.pdf"],
-  ["Tarifs 2026","catalogues/Tarif-BritishFires-07-2026.pdf","secondary"]
-]},
-
- 
+  // CHEMINÉES ÉLECTRIQUES
+  {
+    brand: "British Fires",
+    category: "electriques",
+    label: "Cheminées électriques",
+    docs: [
+      ["Catalogue", "catalogues/catalogue-british-fires.pdf"],
+      ["Tarifs 2026", "catalogues/Tarif-BritishFires-07-2026.pdf", "secondary"]
+    ]
+  },
 
   // CONSEILS ET UTILISATION
   {
@@ -139,12 +142,9 @@ categorie:"destockage",
     docs: [
       ["Voir le tutoriel", "catalogues/allumage-inverse.png"]
     ]
-  },
-
-  
-
-
+  }
 ];
+
 
 const grid = document.getElementById("catalogues");
 const search = document.getElementById("search");
