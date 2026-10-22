@@ -83,6 +83,7 @@ categorie:"destockage",
   ]},
 
 
+
 {
   brand:"TotalEnergies",
   category:"pellets",
@@ -92,7 +93,6 @@ categorie:"destockage",
     ["Offre de fidélité","catalogues/Bulletin MAJ 2025 Bienvenue Code Fidélité Cheminées Vaudin.pdf","secondary"]
   ]
 },
-
 
   // FOYERS DE CHEMINÉE
 {brand:"Spartherm", category:"foyers", label:"Foyers de cheminée", docs:[["Catalogue","catalogues/Foyers-Spartherm-GitHub.pdf"]]},
